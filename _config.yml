@@ -1,17 +1,17 @@
- theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Yo 皆さん!"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "Rob Nice: saved by grace, husband, father, programmer, coffee-addict, and Japanese learner."
+name                     : "Rob Nice"
+description              : "Saved by grace, husband, father, programmer, coffee-addict, and Japanese learner."
 url                      : "https://rnice01.github.io"
-baseurl                  : "/about"
+baseurl                  : "/"
 repository               : "rnice01/rnice01.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/teaser_placeholder.jpg"
+logo                     : "/assets/images/logo.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Rob Nice"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://en.gravatar.com/userimage/152736425/7bec98cdfd65f4f0b66085aa602e9e2c.jpg
   bio              : "I am saved by grace, a husband, a father, a coffee-addict, a coder, and a Japanese learner."
   location         : "Somewhere"
   email            :
@@ -104,7 +104,7 @@ author:
       url: mailto:rob.w.nice@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-square"
-      # url: "https://facebook.com/"
+      url: "https://linkedin.com/in/robnice"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rnice01"
@@ -245,6 +245,13 @@ compress_html:
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
