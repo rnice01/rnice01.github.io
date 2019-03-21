@@ -1,0 +1,10 @@
+---
+layout: posts
+title:  "Why I Love Coding"
+date:   2019-03-21 19:31:11 +0000
+categories: random
+---
+
+I started working at my current job a little over a year ago, it was a big step up from where I was at. I was replacing one out
+of the two developers at the company. He worked as the company's Lead /DevOps/FullStack/ dev, among helping with other
+various tasks. I was just finishing up my first year in my career and felt very nervous about taking the job. 
