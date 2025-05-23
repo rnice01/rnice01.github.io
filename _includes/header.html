@@ -1,0 +1,40 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #0a0f1a;
+          color: #ffffff;
+          text-align: center;
+      }
+      .hero {
+          padding: 4rem 1rem;
+          background-color: #0a0f1a;
+      }
+      .hero img {
+          max-width: 500px;
+          width: 90%;
+          height: auto;
+          margin-bottom: 2rem;
+          box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+          border-radius: 12px;
+      }
+      .hero p {
+          font-size: 1.25rem;
+          max-width: 700px;
+          margin: 0 auto;
+          line-height: 1.6;
+          color: #a0aec0;
+      }
+  </style>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
